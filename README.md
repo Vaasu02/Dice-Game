@@ -108,36 +108,6 @@ Endpoint	Method	Description
 /api/verify-roll	GET	Verify a previous roll
 /api/balance	GET	Get current player balance
 
-
-## 📂 Project Structure
-
-fair-dice-game/
-├── backend/
-│   ├── controllers/
-│   │   └── dice.controller.js
-│   ├── routes/
-│   │   └── dice.routes.js
-│   ├── utils/
-│   │   └── provablyFair.js
-│   ├── .env
-│   ├── index.js
-│   └── package.json
-├── frontend/
-│   ├── app/
-│   │   ├── globals.css
-│   │   ├── layout.js
-│   │   └── page.js
-│   ├── components/
-│   │   ├── ClientWrapper.js
-│   │   ├── Dice.js
-│   │   └── DiceGame.js
-│   ├── utils/
-│   │   └── web3.js
-│   ├── .env.local
-│   └── package.json
-└── README.md
-
-
 🚀 Future Improvements
  User authentication system
  Transaction history
